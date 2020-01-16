@@ -1,10 +1,10 @@
 <?php
 function db_connect()
 {
-    $db_host = 'mysql57.leveldrain.sakura.ne.jp';
-    $db_name = 'leveldrain_personal';
-    $db_user = 'leveldrain';
-    $db_pass = 'level2291';
+    $db_host = '';
+    $db_name = '';
+    $db_user = '';
+    $db_pass = '';
     try {
         $db = new PDO(
             'mysql:host=' . $db_host .
